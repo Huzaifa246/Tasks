@@ -1,0 +1,44 @@
+.XYZ {
+    width: 100%;
+    height: 100%;
+  }
+  #XYZZ {
+    width: 40%;
+  }
+  a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .ach:link {
+    color: green;
+    background-color: aqua;
+  }
+  .ach:visited {
+    background-color: blue;
+    color: brown;
+  }
+  .ach:hover {
+    color: yellow;
+    background-color: violet;
+  }
+  .ach:active {
+    color: tomato;
+    background-color: black;
+  }
