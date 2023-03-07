@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        border-radius: 20px;
+        padding: 10px 20px 10px 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <th>Head1</th>
+      <th>Head2</th>
+      <th>Head 3</th>
+      <tr>
+        <td>abc</td>
+        <td>abd</td>
+        <td>bca</td>
+      </tr>
+      <tr>
+        <td>123</td>
+        <td>123</td>
+        <td>123</td>
+      </tr>
+      <tr>
+        <td>ab</td>
+        <td>1a3</td>
+        <td>123</td>
+      </tr>
+    </table>
+    <table style="width: 100%">
+      <tr style="background-color: rgb(255, 255, 0)">
+        <th colspan="2">Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>43</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>57</td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <th rowspan="2">Name</th>
+        <td>Jill</td>
+        <td>Smith</td>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+      </tr>
+      <tr>
+        <th rowspan="3">AGE</th>
+        <td>Jill</td>
+        <td>Smith</td>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+      </tr>
+    </table>
+
+    <table>
+      <thead style="background-color: cadetblue">
+        <tr>
+          <th>Items</th>
+          <th scope="col">Expenditure</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Donuts</th>
+          <td>3,000</td>
+        </tr>
+        <tr>
+          <th scope="row">Stationery</th>
+          <td>18,000</td>
+        </tr>
+      </tbody>
+      <tfoot style="background-color: cadetblue">
+        <tr>
+          <th scope="row">Totals</th>
+          <td>21,000</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
